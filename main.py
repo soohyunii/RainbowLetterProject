@@ -1,3 +1,5 @@
+import sys
+print(sys.executable)
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
 
@@ -12,6 +14,9 @@ def main():
     #     file.truncate(0)
     #     file.write(data_rainbow_png)
     # f.close()
+    
+    # 폰트 지정
+    font = ImageFont.truetype("./NanumGothic.ttf",25)
     
     
 
